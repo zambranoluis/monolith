@@ -12,15 +12,17 @@ The hub uses plain HTML and CSS, with plain JavaScript only if behavior requires
 
 ## Product Purpose
 
-The repository root introduces Monolith's independent concept versions and provides a directory for visiting them. This is a concept hub, not a description or implementation of an unspecified Monolith application.
+The repository root introduces Monolith's independent concept versions and provides a directory for visiting them. Monolith is a planned workspace/database for individuals and small teams to organize work information that OpenJM can use to assist with real work. CrimsonTide AI is the parent company, with OpenJM and Sentinel as its first products. These facts come from the user's project purpose and approved v01 plan.
+
+The hub and concept presentations do not implement the Monolith application or the OpenJM integration.
 
 ## Operating Context
 
-Visitors read a short introduction, find the concept directory, and follow an ordinary link to a completed concept. Each concept provides a return link to the hub. The initial directory is empty because no concept has been built.
+Visitors read a short introduction, find the concept directory, and follow an ordinary link to a completed concept. Each concept provides a return link to the hub. The first entry is [v01 — Common Thread](versions/v01/index.html): an orange-led brand proposal with a woven M, Sora lettering, illustrative applications, and downloadable SVG assets.
 
 ## Capabilities and Constraints
 
-- Build only the hub in this iteration; create concepts individually when requested.
+- Keep the hub and concepts independent; create further concepts individually when requested.
 - List a concept only after its real page exists. Every entry includes the version number, concept name, short description, and page link.
 - Store each concept in `versions/v01/`, `versions/v02/`, and subsequent numbered folders, with its own entry point, styles, scripts, assets, `PRODUCT.md`, and `DESIGN.md`.
 - Start each concept from scratch. Do not copy another concept, the hub's visual system, or existing reference work.
@@ -30,6 +32,8 @@ Visitors read a short introduction, find the concept directory, and follow an or
 
 ## Open Decisions
 
-Monolith's application purpose, audience, journeys, and functionality remain unspecified. The user owns those decisions; they must be resolved before implementing a concept that depends on them. Concept names, descriptions, identities, stacks, and build methods remain open until their individual requests.
+Detailed workspace functionality, database model, permissions, integration behavior, release plans, pricing, and final product-wide identity remain unresolved. The user owns these decisions. The Notion/AppFlowy comparison establishes a product category, not feature parity. Further concept names, descriptions, identities, stacks, and build methods remain open until their individual requests.
 
-The hub's neutral styling is delegated by the approved implementation plan. It establishes no brand commitment for future concepts. Documents under `references/` describe other projects and do not settle Monolith's purpose or identity.
+The line “Your work, woven together.”, woven M, orange palette, and Sora typography are proposals scoped to v01; they establish no permanent identity for the product or later versions. [v01 PRODUCT.md](versions/v01/PRODUCT.md) owns that concept's scope.
+
+The hub's neutral styling is preserved. It establishes no brand commitment for concepts. Documents under `references/` describe other products and the parent company; they supply family context, not Monolith requirements or visual templates.

@@ -28,13 +28,13 @@ spacing:
   text-gap: "0.5rem"
   section-heading-gap: "1.25rem"
   header-padding: "1.5rem"
-  empty-state-padding: "clamp(1.25rem, 4vw, 2rem)"
+  entry-padding: "clamp(1.25rem, 4vw, 2rem)"
   footer-gap: "4rem"
 components:
-  empty-state:
+  concept-entry:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.text}"
-    padding: "{spacing.empty-state-padding}"
+    padding: "{spacing.entry-padding}"
 ---
 
 # Hub design
@@ -43,13 +43,13 @@ components:
 
 **Creative North Star: "A quiet directory"**
 
-The hub uses simple system typography, neutral colors, and a single responsive column to introduce and organize concepts. The directory is the focus; the initial empty state states plainly that no concepts exist.
+The hub uses simple system typography, neutral colors, and a single responsive column to introduce and organize concepts. The directory is the focus; it lists existing, independently designed concepts.
 
 **Scope rule.** This document and the root stylesheet apply only to the hub. Every future concept gets an independent `DESIGN.md`, identity, and build method. The hub is not a visual starter for those concepts.
 
 ## Colors
 
-Use the frontmatter's background for the page, surface for the empty-state panel, text for headings and links, muted for supporting copy, and border for thin separators. Text contrast against both backgrounds exceeds 4.5:1. Selection reverses the text and surface colors.
+Use the frontmatter's background for the page, surface for concept entries, text for headings and links, muted for supporting copy, and border for thin separators. Text contrast against both backgrounds exceeds 4.5:1. Selection reverses the text and surface colors.
 
 ## Typography
 
@@ -59,7 +59,7 @@ Use the system stack throughout the hub. The main heading scales from 2rem to 3r
 
 Header, main, and footer share a centered container capped at 58rem. Gutters grow fluidly from 1.25rem to 3rem. The header wraps when necessary. The introduction has generous fluid block spacing, followed by the concept directory and a quiet footer. No fixed-height content regions or breakpoint-specific layout switches are needed.
 
-The empty-state inset grows from 1.25rem to 2rem; it measured 20px at a 390px viewport and 32px at 1440px. Native scrolling and normal document flow remain in place.
+The concept-entry inset grows from 1.25rem to 2rem, preserving the former empty-state panel's geometry. Native scrolling and normal document flow remain in place.
 
 ## Elevation & Depth
 
@@ -67,12 +67,12 @@ Use flat surfaces and one-pixel neutral borders. The hub has no shadows, gradien
 
 ## Shapes
 
-Panels are rectangular with square corners. Borders delineate the empty state and the header and footer edges.
+Panels are rectangular with square corners. Borders delineate concept entries and the header and footer edges.
 
 ## Components
 
 - Introduction: one `h1` and a short description of the independent concepts.
-- Concept directory: a labeled section with an honest empty state. When concepts exist, replace the empty panel with a semantic list of version number, name, description, and ordinary page link; do not add placeholder entries.
+- Concept directory: a labeled section with a semantic list of version number, name, description, and ordinary page link. Each entry has a linked 1.125rem, weight-600 title and supporting prose; do not add placeholder entries.
 - Navigation: an underlined native link to the directory, with a thicker underline on hover and a two-pixel outline offset by five pixels on keyboard focus.
 - Skip link: hidden above the viewport until focused; activation moves focus to the main content. Fragment navigation to the directory also moves focus to its section.
 - Footer: supporting text separated by a thin border.

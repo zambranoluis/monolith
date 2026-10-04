@@ -1,3 +1,10 @@
+# Purpose
+
+from the references in `/references` you can understand the company and product family. crimsontideai is the main company, and openjm and sentinel it's first product.
+we are going to create monolith so we need to use impeccable to create it's brand representation from start. can be specific for monolith does not need to be a recycle of other products identity.
+
+monolith will be the "notion" or "appflowy" for openjm, where users can use it as database for their work information, so openjm can use current-real data to work with and help the user with more than generative text and media but real integrative work assitance.
+
 # Working agreement
 
 This is the entry point for work in a project that adopts this standard. It sets the work boundary and routes decisions to their owners. Read only the routed material relevant to the request. A link is a reading instruction, not proof that a host automatically loaded the linked file.
@@ -17,15 +24,15 @@ Project context starts in [README.md](README.md), [PRODUCT.md](PRODUCT.md), and 
 
 ## Routing
 
-| Decision | Owner |
-| --- | --- |
-| Project overview, runtime and selected stack, setup, locations, boundaries, commands, and documentation map | [README.md](README.md), which links detailed operational and engineering owners |
-| Users, purpose, journeys, capabilities, scope, operating constraints, terminology, and confirmed brand commitments | [PRODUCT.md](PRODUCT.md), which may route to established product owners |
-| Design direction, tokens, layout, components, states, accessibility, and motion requirements | [DESIGN.md](DESIGN.md), which may route to established design owners; consult its requirements when design concerns apply |
-| Investigation, evidence, and unresolved facts | [AGENTS/INVESTIGATIONS.md](AGENTS/INVESTIGATIONS.md) |
-| Frontend creation direction, skills and examples, and conditional previews | [AGENTS/FRONTEND_CREATION.md](AGENTS/FRONTEND_CREATION.md) when its trigger applies |
-| Plans, durable state, stops, and resumption | [AGENTS/PLANS.md](AGENTS/PLANS.md) |
-| Engineering principles, project decisions and contracts, integrity, verification, known deviations, and debt ownership | [AGENTS/CODE.md](AGENTS/CODE.md) and its linked owners |
+| Decision                                                                                                               | Owner                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Project overview, runtime and selected stack, setup, locations, boundaries, commands, and documentation map            | [README.md](README.md), which links detailed operational and engineering owners                                           |
+| Users, purpose, journeys, capabilities, scope, operating constraints, terminology, and confirmed brand commitments     | [PRODUCT.md](PRODUCT.md), which may route to established product owners                                                   |
+| Design direction, tokens, layout, components, states, accessibility, and motion requirements                           | [DESIGN.md](DESIGN.md), which may route to established design owners; consult its requirements when design concerns apply |
+| Investigation, evidence, and unresolved facts                                                                          | [AGENTS/INVESTIGATIONS.md](AGENTS/INVESTIGATIONS.md)                                                                      |
+| Frontend creation direction, skills and examples, and conditional previews                                             | [AGENTS/FRONTEND_CREATION.md](AGENTS/FRONTEND_CREATION.md) when its trigger applies                                       |
+| Plans, durable state, stops, and resumption                                                                            | [AGENTS/PLANS.md](AGENTS/PLANS.md)                                                                                        |
+| Engineering principles, project decisions and contracts, integrity, verification, known deviations, and debt ownership | [AGENTS/CODE.md](AGENTS/CODE.md) and its linked owners                                                                    |
 
 ## Authority and scope
 
