@@ -32,6 +32,7 @@ There is no build step or runtime package dependency. The committed assets are r
 | [font sources](assets/fonts/SOURCES.json) | Original font URLs; upstream licences live beside the files |
 | [surface index](.impeccable/surfaces.md) | Impeccable showcase brief |
 | [finish review](.impeccable/review/finish-review.md) | Documented fallback design review and disposition |
+| [finish verdict](.impeccable/review/finish-verdict.md) | Both material fixes scored resolved; ship at that fix-list scope |
 | [verification](docs/verification.md) | Actual checks, evidence locations and remaining limits |
 
 `assets/logo/` contains three variants of symbol, wordmark, plain lockup and endorsed lockup, in editable outlined SVG and transparent PNG. `assets/icons/` contains favicon SVG/ICO, app PNGs and manifest. `assets/applications/` contains printable SVG poster/card concepts. `assets/downloads/` contains four ZIPs, a brand guide and JSON tokens.
@@ -71,7 +72,7 @@ npm run assets
 npm run check
 ```
 
-`build-vectors.py` outlines the supplied variable fonts and generates WOFF2, logo geometry, and printable applications. `npm run assets` exports PNG/ICO, embeds origin metadata, derives downloadable tokens from CSS, copies the guide, and rebuilds ZIPs. Run it after changing the guide or primitives so downloads stay consistent. The optional `node scripts/fetch-fonts.mjs` fetches the original upstream font files and licences; it requires network access and is not a preview prerequisite.
+`build-vectors.py` outlines the supplied variable fonts and generates WOFF2, logo geometry, and printable applications. `npm run assets` exports PNG/ICO, embeds origin metadata, derives downloadable tokens from CSS, copies the guide, and rebuilds ZIPs. Run it after changing the guide or primitives so downloads stay consistent. `node scripts/design-sidecar.mjs` regenerates the Impeccable extensions and component examples after updating DESIGN. The optional `node scripts/fetch-fonts.mjs` fetches the original upstream font files and licences; it requires network access and is not a preview prerequisite.
 
 ## Documentation and conventions
 
