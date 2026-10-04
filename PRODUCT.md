@@ -18,7 +18,7 @@ The hub and concept presentations do not implement the Monolith application or t
 
 ## Operating Context
 
-Visitors read a short introduction, find the concept directory, and follow an ordinary link to a completed concept. Each concept provides a return link to the hub. The first entry is [v01 — Common Thread](versions/v01/index.html): an orange-led brand proposal with a woven M, Sora lettering, illustrative applications, and downloadable SVG assets.
+Visitors read a short introduction, find the concept directory, and follow an ordinary link to a completed concept. Each concept provides a return link to the hub. The first entry is [v01 — Common Thread](versions/v01/index.html): an orange-led brand proposal with a woven M, Sora lettering, illustrative applications, and downloadable SVG assets. The second is [v02 — Everyday Orbit](versions/v02/index.html): a chalk-and-cobalt proposal with a balance symbol, local Instrument Sans and Newsreader Italic, an interactive mobile study, illustrative applications, and downloadable SVG assets.
 
 ## Capabilities and Constraints
 
@@ -35,5 +35,7 @@ Visitors read a short introduction, find the concept directory, and follow an or
 Detailed workspace functionality, database model, permissions, integration behavior, release plans, pricing, and final product-wide identity remain unresolved. The user owns these decisions. The Notion/AppFlowy comparison establishes a product category, not feature parity. Further concept names, descriptions, identities, stacks, and build methods remain open until their individual requests.
 
 The line “Your work, woven together.”, woven M, orange palette, and Sora typography are proposals scoped to v01; they establish no permanent identity for the product or later versions. [v01 PRODUCT.md](versions/v01/PRODUCT.md) owns that concept's scope.
+
+The line “Room for your working world.”, balance symbol, mobile graphics, five-color palette, and Instrument Sans/Newsreader pairing are proposals scoped to v02. [v02 PRODUCT.md](versions/v02/PRODUCT.md) owns that concept’s scope; application functionality, publishing, and permanent brand adoption remain outside it.
 
 The hub's neutral styling is preserved. It establishes no brand commitment for concepts. Documents under `references/` describe other products and the parent company; they supply family context, not Monolith requirements or visual templates.

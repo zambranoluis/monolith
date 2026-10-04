@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T06:52:25.519134Z",
+  "title": "Design System: Monolith v02 — Everyday Orbit",
+  "extensions": {
+    "colorMeta": {
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "tonalRamp": [
+          "#0D0B05",
+          "#27251E",
+          "#44423A",
+          "#646159",
+          "#858279",
+          "#A8A59C",
+          "#CCC9BF",
+          "#F1EEE4"
+        ]
+      },
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Cobalt",
+        "tonalRamp": [
+          "#010035",
+          "#07007A",
+          "#121EB8",
+          "#274BE0",
+          "#4874FF",
+          "#7BA1FF",
+          "#B1C8FF",
+          "#E7EFFF"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "#040C12",
+          "#1D272D",
+          "#39444A",
+          "#58636A",
+          "#78848C",
+          "#9BA7AF",
+          "#BECBD3",
+          "#E3F1F9"
+        ]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Coral — decorative only",
+        "tonalRamp": [
+          "#1E0004",
+          "#4C0013",
+          "#7F0025",
+          "#AA2A41",
+          "#D15060",
+          "#FA7482",
+          "#FFB1B5",
+          "#FFE8E9"
+        ]
+      },
+      "citrus": {
+        "role": "secondary",
+        "displayName": "Citrus",
+        "tonalRamp": [
+          "#0C0C00",
+          "#262700",
+          "#444600",
+          "#646600",
+          "#858900",
+          "#A8AD36",
+          "#CCD25F",
+          "#F1F885"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Opening concept line."
+      },
+      "display-mobile": {
+        "displayName": "Mobile display",
+        "purpose": "Opening below 760px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Identity and application titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Everyday information."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Captions, status, and asset metadata."
+      },
+      "expressive": {
+        "displayName": "Expressive italic",
+        "purpose": "Selected phrases, italic style, inheriting the surrounding size."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "rebalance-duration",
+        "value": "450ms",
+        "purpose": "Transform-only transitions between three authored arrangements; immediate under reduced motion."
+      },
+      {
+        "name": "rebalance-easing",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Settle from the sampled in-flight frame toward the latest target."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "symbol-study-wrap",
+        "value": "1050px"
+      },
+      {
+        "name": "stacked-composition",
+        "value": "759px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Rebalance",
+      "kind": "button",
+      "refersTo": "rebalance",
+      "description": "One native button on the cobalt balance study; its page behavior cycles authored arrangements.",
+      "html": "<button class=\"ds-rebalance\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 8a8 8 0 1 0 0 8M20 3v5h-5\"/></svg>Rebalance</button>",
+      "css": ".ds-rebalance { display:inline-flex; align-items:center; gap:.75rem; font:600 1rem 'Instrument Sans',sans-serif; background:var(--citrus,#D4DA67); color:var(--ink,#192329); border:1px solid var(--citrus,#D4DA67); border-radius:2rem; padding:.9rem 1.4rem; cursor:pointer; } .ds-rebalance svg { width:1.25em; height:1.25em; fill:none; stroke:currentColor; stroke-width:1.5; } .ds-rebalance:hover { background:var(--chalk,#F4F1E7); border-color:var(--chalk,#F4F1E7); } .ds-rebalance:active { border-color:var(--ink,#192329); } .ds-rebalance:focus-visible { outline:3px solid var(--chalk,#F4F1E7); outline-offset:5px; }"
+    },
+    {
+      "name": "Native return navigation",
+      "kind": "nav",
+      "description": "Underlined native navigation within the version; target points back to the hub.",
+      "html": "<nav aria-label=\"Concept navigation\"><a class=\"ds-return\" href=\"../../index.html\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 12H4m6-6-6 6 6 6\"/></svg>All concepts</a></nav>",
+      "css": ".ds-return { display:inline-flex; align-items:center; gap:.6rem; padding-block:.6rem; color:var(--ink,#192329); font:.875rem 'Instrument Sans',sans-serif; text-decoration:underline; text-underline-offset:.25em; text-decoration-thickness:1px; } .ds-return svg { width:1.25em; height:1.25em; fill:none; stroke:currentColor; stroke-width:1.5; } .ds-return:hover { text-decoration-thickness:2px; } .ds-return:focus-visible { outline:3px solid var(--cobalt,#2446DB); outline-offset:5px; }"
+    },
+    {
+      "name": "Asset download row",
+      "kind": "custom",
+      "description": "Native download row with an inset name, format, and outlined arrow.",
+      "html": "<a class=\"ds-download\" href=\"./assets/symbol-primary.svg\" download><span>Primary symbol</span><span>SVG <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 4v13m-6-6 6 6 6-6M4 20h16\"/></svg></span></a>",
+      "css": ".ds-download { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding-block:1.5rem; border-top:1px solid color-mix(in srgb,var(--ink,#192329) 25%,transparent); font:1rem 'Instrument Sans',sans-serif; color:var(--ink,#192329); text-decoration:none; } .ds-download span:last-child { display:inline-flex; align-items:center; gap:.75rem; color:var(--cobalt,#2446DB); font-size:.875rem; } .ds-download svg { width:1.25em; height:1.25em; fill:none; stroke:currentColor; stroke-width:1.5; } .ds-download:hover span:first-child { text-decoration:underline; text-underline-offset:.25em; } .ds-download:focus-visible { outline:3px solid var(--cobalt,#2446DB); outline-offset:5px; }"
+    },
+    {
+      "name": "Coral swatch",
+      "kind": "custom",
+      "description": "Decorative coral field with both labels on a readable chalk strip.",
+      "html": "<div class=\"ds-coral-swatch\"><span>Coral</span><span>#D75565</span></div>",
+      "css": ".ds-coral-swatch { display:flex; flex-direction:column; justify-content:end; min-height:12rem; background:var(--coral,#D75565); font:1rem 'Instrument Sans',sans-serif; } .ds-coral-swatch span { padding:.5rem 1.25rem; background:var(--chalk,#F4F1E7); color:var(--ink,#192329); } .ds-coral-swatch span:last-child { font-size:.875rem; padding-top:0; padding-bottom:1rem; }"
+    },
+    {
+      "name": "Balance symbol",
+      "kind": "custom",
+      "description": "Primary asymmetric balance mark with offset crossbar and opposing semicircles.",
+      "html": "<svg class=\"ds-symbol\" viewBox=\"0 0 220 196\" role=\"img\" aria-label=\"Monolith balance symbol\"><g fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"8\"><path d=\"M108 20V176M24 80H196M60 80V112M156 80V64\" fill=\"none\"/><path d=\"M24 112H96A36 36 0 0 1 24 112ZM120 64A36 36 0 0 1 192 64Z\" stroke=\"none\"/></g></svg>",
+      "css": ".ds-symbol { width:6rem; max-width:100%; color:var(--ink,#192329); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Everyday Orbit",
+    "overview": "A welcoming working world held together by a useful center. Physical mobile structures connect different shapes without forcing them to become identical. This system is an independent proposal scoped to v02; it is not Monolith’s adopted identity and does not govern the hub or v01.",
+    "rules": [
+      {
+        "name": "The Readable Ground Rule",
+        "body": "Use ink on chalk (14.14:1) or citrus (10.67:1), or chalk on cobalt (6.25:1) or ink (14.14:1). Ink on coral is 4.09:1, below the ordinary-text threshold. Coral’s swatch label is on chalk; Knowledge is labeled in chalk outside its coral form.",
+        "section": "colors"
+      },
+      {
+        "name": "The Expressive Phrase Rule",
+        "body": "Italic phrases inherit the surrounding size and use Newsreader at weight 400. Headings are balanced and can break long words when text is enlarged; type specimens also allow word wrapping. Body measure is capped at 65ch, with shorter measures beside artwork. Root text size follows browser preferences.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do keep different weights visibly connected through a light structure.",
+      "Do use the tested text/ground combinations and visible keyboard focus.",
+      "Do preserve native links, downloads, scrolling, reduced motion, and the complete default arrangement.",
+      "Do label illustrative applications and describe OpenJM assistance as a proposed purpose."
+    ],
+    "donts": [
+      "Don't put ordinary text on coral or make the symbol depend on a font.",
+      "Don't turn this version’s identity into a permanent product decision or a template for other versions."
+    ]
+  }
+}

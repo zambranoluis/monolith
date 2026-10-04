@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#F4F1E7">
+    <meta name="description" content="Everyday Orbit: an independent Monolith brand proposal. Room for your working world.">
+    <title>Monolith — Everyday Orbit</title>
+    <link rel="icon" href="./assets/app-icon.svg" type="image/svg+xml">
+    <link rel="preload" href="./assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/newsreader-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead canvas">
+      <a class="brand" href="#main" aria-label="Monolith — top of presentation"><img src="./assets/lockup-primary.svg" width="1000" height="220" alt="monolith"></a>
+      <span class="version-note">Everyday Orbit · v02</span>
+      <a class="return-link" href="../../index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg> All concepts</a>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero canvas" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Room for<br>your working<br><em>world.</em></h1>
+          <p>A place for the notes, projects, and knowledge that make your work yours. Different shapes. One useful center.</p>
+          <a class="text-link" href="#balance">Explore the balance <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        </div>
+        <figure class="hero-art">
+          <svg viewBox="0 0 640 660" role="img" aria-labelledby="mobile-title mobile-desc">
+            <title id="mobile-title">A working world in balance</title>
+            <desc id="mobile-desc">An asymmetric cobalt mobile. A large semicircle and a disc suspend smaller coral, citrus, and cobalt weights on slender lines.</desc>
+            <g fill="none" stroke="#2446DB" stroke-width="2.5">
+              <path d="M365 0V107M85 175L565 69M145 162V277M505 82V243M145 402V465M45 482L297 439M79 476V547M262 445V505M505 363V471"/>
+              <circle cx="365" cy="107" r="7" fill="#F4F1E7"/>
+            </g>
+            <path d="M20 277H270A125 125 0 0 1 20 277Z" fill="#2446DB"/>
+            <circle cx="505" cy="303" r="60" fill="#2446DB"/>
+            <path d="M24 547A55 55 0 0 1 134 547Z" fill="#D75565"/>
+            <rect x="215" y="505" width="94" height="75" rx="37.5" fill="#D4DA67"/>
+            <path d="M460 471H550A45 45 0 0 1 460 471Z" fill="#2446DB"/>
+          </svg>
+          <figcaption>A useful center. A little room to move.</figcaption>
+        </figure>
+        <div class="hero-foot"><span>Monolith / An independent identity proposal</span><a href="#idea">Meet the idea <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="idea canvas section-space" id="idea" tabindex="-1" aria-labelledby="idea-title">
+        <h2 id="idea-title">Work has<br><em>more than one shape.</em></h2>
+        <div class="idea-copy">
+          <p class="lead">The quick thought. The long project. The thing you’ll need again.</p>
+          <p>Monolith is a proposed workspace for keeping your work information together, with room for the way you think and the way your team works.</p>
+          <p>Its purpose is to give OpenJM current, real information to work with—so assistance can reach beyond generated text and media into the work itself.</p>
+          <p class="proposal-note">Everyday Orbit is a brand proposal for that purpose. The workspace and integration are still to be built.</p>
+        </div>
+      </section>
+
+      <section class="balance-section" id="balance" tabindex="-1" aria-labelledby="balance-title">
+        <div class="canvas balance-layout section-space">
+          <div class="balance-copy">
+            <h2 id="balance-title">A different balance.<br><em>The same world.</em></h2>
+            <p>Some days, a project takes the lead. Other days, it’s a thought worth keeping. Everything still belongs.</p>
+            <div class="balance-controls">
+              <button id="rebalance" type="button" hidden aria-controls="balance-art"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8a8 8 0 1 0 0 8M20 3v5h-5"/></svg> Rebalance</button>
+              <p id="arrangement-status" role="status" aria-live="polite" aria-atomic="true">Arrangement 1 of 3</p>
+            </div>
+          </div>
+          <figure class="balance-study" data-arrangement="1">
+            <svg id="balance-art" viewBox="0 0 640 620" role="img" aria-labelledby="balance-art-title balance-art-desc">
+              <title id="balance-art-title">Notes, Projects, and Knowledge in balance</title>
+              <desc id="balance-art-desc">Three suspended work forms share a central beam. Rebalance changes their positions while keeping the same forms.</desc>
+              <defs><clipPath id="study-hanging-area"><path d="M0 79H640V620H0Z"/></clipPath></defs>
+              <g class="study-frame" fill="none" stroke="#F4F1E7" stroke-width="2"><path d="M320 0V78M45 78H595"/><circle cx="320" cy="78" r="6" fill="#2446DB"/></g>
+              <g clip-path="url(#study-hanging-area)">
+              <g class="work-weight notes-weight">
+                <path class="suspension" d="M85-320V0"/>
+                <circle cx="85" cy="85" r="85" fill="#D4DA67"/>
+                <text x="85" y="91" text-anchor="middle" fill="#192329">Notes</text>
+              </g>
+              <g class="work-weight projects-weight">
+                <path class="suspension" d="M115-320V0"/>
+                <path d="M0 0H230A115 115 0 0 1 0 0Z" fill="#F4F1E7"/>
+                <text x="115" y="49" text-anchor="middle" fill="#192329">Projects</text>
+              </g>
+              <g class="work-weight knowledge-weight">
+                <path class="suspension" d="M110-320V0"/>
+                <rect width="220" height="96" rx="48" fill="#D75565"/>
+                <path d="M35 42H185M35 54H185" stroke="#2446DB" stroke-width="2"/>
+                <text x="110" y="133" text-anchor="middle" fill="#F4F1E7">Knowledge</text>
+              </g>
+              </g>
+            </svg>
+            <figcaption>An interactive study of the identity’s graphic language.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="toolkit canvas section-space" id="toolkit" tabindex="-1" aria-labelledby="toolkit-title">
+        <div class="section-intro"><h2 id="toolkit-title">A small set of parts.<br><em>A world of possibilities.</em></h2><p>An identity built from balance, openness, and a few shapes that feel at home together.</p></div>
+        <div class="logo-gallery">
+          <figure class="logo-primary"><div class="logo-stage"><img src="./assets/lockup-primary.svg" width="1000" height="220" alt="Primary ink Monolith symbol and wordmark"></div><figcaption>Primary lockup / Ink on chalk</figcaption></figure>
+          <figure class="logo-reversed"><div class="logo-stage"><img src="./assets/lockup-reversed.svg" width="1000" height="220" alt="Reversed chalk Monolith symbol and wordmark"></div><figcaption>Reversed lockup / Chalk on cobalt</figcaption></figure>
+        </div>
+        <div class="symbol-grid">
+          <div class="symbol-story"><h3>A little asymmetry.<br>A lot of character.</h3><p>A vertical stem holds an offset crossbar. Opposing solid semicircles give the mark its balance, without making everything the same.</p><div class="symbol-pair"><img src="./assets/symbol-primary.svg" width="220" height="196" alt="Primary balance symbol"><span><img src="./assets/symbol-reversed.svg" width="220" height="196" alt="Reversed balance symbol on ink"></span></div></div>
+          <figure class="clear-space"><div class="clear-space-stage"><div class="clear-space-frame"><img src="./assets/symbol-primary.svg" width="220" height="196" alt="Symbol with clear space on all sides"><span class="space-x" aria-hidden="true">x</span></div></div><figcaption>Clear space / Keep at least x around the mark.<br>x is the radius of one semicircular weight.</figcaption></figure>
+          <div class="small-size"><h3>Small, still itself.</h3><p>Use the simplified mark at 24px and below. Thicker supports keep the structure legible.</p><div class="small-specimens"><figure><img src="./assets/symbol-small.svg" width="16" height="16" alt="Simplified symbol at 16 pixels"><figcaption>16px</figcaption></figure><figure><img src="./assets/symbol-small.svg" width="24" height="24" alt="Simplified symbol at 24 pixels"><figcaption>24px</figcaption></figure><figure><img src="./assets/symbol-primary.svg" width="48" height="43" alt="Primary symbol at 48 pixels"><figcaption>48px</figcaption></figure><figure><img src="./assets/symbol-primary.svg" width="96" height="86" alt="Primary symbol at 96 pixels"><figcaption>96px</figcaption></figure></div></div>
+        </div>
+        <div class="palette-heading"><h3>Color with room to play.</h3><p>Chalk and cobalt set the scene. Ink brings clarity. Coral and citrus add a little life.</p></div>
+        <ul class="palette" aria-label="Brand color palette">
+          <li class="swatch chalk"><span>Chalk</span><span>#F4F1E7</span></li>
+          <li class="swatch cobalt"><span>Cobalt</span><span>#2446DB</span></li>
+          <li class="swatch ink"><span>Ink</span><span>#192329</span></li>
+          <li class="swatch coral"><span>Coral</span><span>#D75565</span></li>
+          <li class="swatch citrus"><span>Citrus</span><span>#D4DA67</span></li>
+        </ul>
+        <p class="palette-note">For text: ink on chalk or citrus; chalk on cobalt or ink. Coral is a decorative color—its name and value sit on chalk here.</p>
+        <div class="type-grid">
+          <div class="type-specimen"><h3>Instrument Sans</h3><p class="sans-sample">Clear thoughts.<br>Open possibilities.</p><p class="alphabet">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br>0123456789</p><p>The everyday voice. Wordmark, headings, and body.</p></div>
+          <div class="type-specimen"><h3>Newsreader Italic</h3><p class="serif-sample">A little space<br>for the unexpected.</p><p class="alphabet italic">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br>0123456789</p><p>The expressive voice. A phrase, a pause, a human touch.</p></div>
+        </div>
+        <div class="patterns"><img src="./assets/mobile-pattern-chalk.svg" width="800" height="640" alt="Slender cobalt mobile with semicircles, a disc, and a rounded weight on chalk"><div><h3>The parts keep moving.</h3><p>Discs, semicircles, and rounded weights hang from a shared structure. Change their scale and arrangement; keep the connections light.</p><p>It’s a physical mobile: familiar, playful, and held together.</p><a class="text-link" href="./assets/mobile-pattern-chalk.svg" download="monolith-v02-mobile-chalk.svg">Download chalk pattern <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a><a class="text-link" href="./assets/mobile-pattern-cobalt.svg" download="monolith-v02-mobile-cobalt.svg">Download cobalt pattern <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div></div>
+      </section>
+
+      <section class="applications" id="applications" tabindex="-1" aria-labelledby="applications-title">
+        <div class="canvas section-space">
+          <div class="section-intro"><h2 id="applications-title">At home in<br><em>your everyday.</em></h2><p>From the first tap to the next blank page. Illustrative applications of the proposed identity.</p></div>
+          <div class="object-grid">
+            <figure class="icon-application"><div class="icon-stage"><img src="./assets/app-icon.svg" width="256" height="256" alt="Cobalt Monolith app icon with a chalk balance symbol"></div><figcaption>App icon / A useful center, at a glance.</figcaption></figure>
+            <figure class="notebook-application"><div class="notebook-stage"><div class="notebook"><img class="notebook-wordmark" src="./assets/wordmark-primary.svg" width="1000" height="260" alt="monolith"><img class="notebook-art" src="./assets/mobile-pattern-chalk.svg" width="800" height="640" alt=""><p>Room for your<br><em>working world.</em></p></div></div><figcaption>Notebook cover / Somewhere for the next thought.</figcaption></figure>
+          </div>
+          <figure class="workspace-application">
+            <figcaption><span>Workspace illustration</span><span>Static concept · Sample content</span></figcaption>
+            <div class="workspace">
+              <aside class="workspace-sidebar" aria-label="Illustrated workspace sidebar"><img src="./assets/lockup-primary.svg" width="1000" height="220" alt="monolith"><p class="workspace-owner">Sam’s working world</p><ul><li class="selected">Overview</li><li>Notes</li><li>Projects</li><li>Knowledge</li></ul><div class="sidebar-bottom"><img src="./assets/symbol-primary.svg" width="220" height="196" alt=""><span>A little room to move.</span></div></aside>
+              <div class="workspace-content"><p class="workspace-breadcrumb">My workspace / Overview</p><h3>A place to begin.</h3><p>Your thoughts, your plans, your useful things.</p><div class="workspace-table"><div class="workspace-table-heading"><h4>On the table</h4><span>3 items</span></div><table><caption class="visually-hidden">Illustrative work items</caption><thead><tr><th scope="col">Name</th><th scope="col">Kind</th><th scope="col">Next step</th></tr></thead><tbody><tr><th scope="row">The next chapter</th><td>Project</td><td>Shape the brief</td></tr><tr><th scope="row">A thought from Tuesday</th><td>Note</td><td>Make some room</td></tr><tr><th scope="row">Things worth keeping</th><td>Knowledge</td><td>Bring it together</td></tr></tbody></table></div><div class="workspace-note"><span class="note-disc" aria-hidden="true"></span><p>Keep the context close.<br><span>The proposed purpose: work information that OpenJM can use to help with real work.</span></p></div></div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="downloads canvas section-space" id="downloads" tabindex="-1" aria-labelledby="downloads-title">
+        <div class="section-intro"><h2 id="downloads-title">Take the parts.<br><em>Make room.</em></h2><p>Eight self-contained SVG assets. Lettering is outlined, so the identity travels with the artwork.</p></div>
+        <ul class="download-list">
+          <li><a href="./assets/symbol-primary.svg" download="monolith-v02-symbol-primary.svg"><span>Primary symbol</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/symbol-reversed.svg" download="monolith-v02-symbol-reversed.svg"><span>Reversed symbol</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/symbol-small.svg" download="monolith-v02-symbol-small.svg"><span>Simplified symbol</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/wordmark-primary.svg" download="monolith-v02-wordmark-primary.svg"><span>Primary wordmark</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/wordmark-reversed.svg" download="monolith-v02-wordmark-reversed.svg"><span>Reversed wordmark</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/lockup-primary.svg" download="monolith-v02-lockup-primary.svg"><span>Primary lockup</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/lockup-reversed.svg" download="monolith-v02-lockup-reversed.svg"><span>Reversed lockup</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+          <li><a href="./assets/app-icon.svg" download="monolith-v02-app-icon.svg"><span>Cobalt app icon</span><span>SVG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m-6-6 6 6 6-6M4 20h16"/></svg></span></a></li>
+        </ul>
+        <p class="download-note">The two mobile patterns are available in the toolkit above. This identity is a proposal; these assets do not establish Monolith’s permanent brand.</p>
+      </section>
+    </main>
+    <footer class="footer"><div class="canvas"><img src="./assets/wordmark-reversed.svg" width="1000" height="260" alt="monolith"><p>Room for your working world.</p><div class="footer-meta"><span>Everyday Orbit · v02 · Brand proposal</span><a href="../../index.html">Back to all concepts <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div></div></footer>
+  </body>
+</html>
