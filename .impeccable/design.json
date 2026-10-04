@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T03:55:26Z",
+  "title": "Design System: Monolith concept hub",
+  "extensions": {
+    "colorMeta": {
+      "background": { "role": "neutral", "displayName": "Page background" },
+      "surface": { "role": "neutral", "displayName": "Empty-state surface" },
+      "text": { "role": "primary", "displayName": "Main text" },
+      "muted": { "role": "neutral", "displayName": "Supporting text" },
+      "border": { "role": "neutral", "displayName": "Separators" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Main heading", "purpose": "Hub introduction only." },
+      "title": { "displayName": "Section heading", "purpose": "Concept directory heading." },
+      "body": { "displayName": "Body text", "purpose": "Readable supporting copy." }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Directory navigation",
+      "kind": "nav",
+      "description": "Underlined native navigation with keyboard focus.",
+      "html": "<nav aria-label=\"Main navigation\"><a class=\"ds-directory-link\" href=\"#concept-versions\">Concept versions</a></nav>",
+      "css": ".ds-directory-link { display: inline-block; color: #202020; padding-block: 0.625rem; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.25em; } .ds-directory-link:hover { text-decoration-thickness: 2px; } .ds-directory-link:focus-visible { outline: 2px solid #202020; outline-offset: 5px; }"
+    },
+    {
+      "name": "Empty directory",
+      "kind": "custom",
+      "refersTo": "empty-state",
+      "description": "Shown only while no concept pages exist.",
+      "html": "<div class=\"ds-empty-state\"><p class=\"ds-empty-title\">No concepts yet.</p><p>The first concept has not been built. Completed versions will appear here as they’re added.</p></div>",
+      "css": ".ds-empty-state { padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid #d9d9d9; background: #ffffff; color: #202020; } .ds-empty-state p { margin: 0; } .ds-empty-title { font-weight: 600; } .ds-empty-state p + p { max-width: 65ch; margin-top: 0.5rem; color: #595959; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A quiet directory",
+    "overview": "The hub uses simple system typography, neutral colors, and a single responsive column to introduce and organize concepts. The directory is the focus; the initial empty state states plainly that no concepts exist.",
+    "rules": [
+      {
+        "name": "Scope rule",
+        "body": "This document and the root stylesheet apply only to the hub. Every future concept gets an independent DESIGN.md, identity, and build method. The hub is not a visual starter for those concepts.",
+        "section": "overview"
+      }
+    ],
+    "dos": [
+      "Do keep the introduction short and the directory easy to find.",
+      "Do preserve visible keyboard focus, semantic headings, and readable text contrast.",
+      "Do add concept links only after their real pages exist."
+    ],
+    "donts": [
+      "Don't apply this hub's design tokens or components to concept versions.",
+      "Don't invent Monolith application claims or present unfinished concepts as available."
+    ]
+  }
+}

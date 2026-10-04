@@ -1,0 +1,5 @@
+# Local browser evidence and machine-specific Impeccable choices.
+.impeccable/review/
+.impeccable/config.local.json
+versions/*/.impeccable/review/
+versions/*/.impeccable/config.local.json
