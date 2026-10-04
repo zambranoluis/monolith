@@ -1,0 +1,34 @@
+/* Canonical shipping design primitives. Downloadable JSON mirrors these values. */
+:root {
+  --color-paper: #FFFFFF;
+  --color-ink: #191922;
+  --color-violet: #6038E8;
+  --color-violet-deep: #4825BC;
+  --color-lilac: #F0ECFD;
+  --color-muted: #656572;
+  --color-line: #DCDCE5;
+  --color-surface: #F7F7FA;
+  --color-dark-muted: #CAC6DB;
+  --color-dark-line: #494550;
+  --color-dark-accent: #C2B3FF;
+  --color-dark-surface: #25232F;
+  --color-dark-tint: #30264E;
+  --color-positive: #256348;
+  --color-positive-surface: #E9F4ED;
+  --font-display: 'Archivo', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --content-width: 1280px;
+  --duration-state: 180ms;
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+}

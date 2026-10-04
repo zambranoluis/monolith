@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: ui-mockup. Separate large readable landscape 16:10 product applications concept board for Monolith THE WORK INDEX. Brand system: bright white #FFFFFF, ink #191922, vivid violet #6038E8, lilac #F0ECFD; Archivo headings and Source Sans 3 UI. Same tiny mark: three indexed upright rectangular strokes with staggered tops, aligned base. Four clearly distinct spacious application panels for one fictional 'Harbor Library' work project: project overview with two pages and a records list; structured project records with readable columns Task, Owner, Status; document page titled 'Opening brief' with a short 2-line paragraph; OpenJM explanation stating 'Based on 2 selected sources' with two source chips, linking to the opening brief and task records. Use sparse real large text, not dense fake dashboard. Violet index tabs, sharp rules, white paper surfaces, minimal small-radius shapes. Caption 'Concept applications · Demonstration data'. Quiet highly refined editorial UI identity, no gradients no glows no robots no stock people. This is an application concept reference, not a live product screenshot.",
+  "tool": "image_gen.imagegen built-in",
+  "generatedAt": "2026-10-03",
+  "role": "Exploration reference, reviewed before production artwork and UI",
+  "approved": false,
+  "decision": "User-pinned Work Index direction; concept details refined into authored SVG and semantic HTML. Concept is not a product screenshot."
+}

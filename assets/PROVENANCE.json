@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "owner": "Monolith / CrimsonTide",
+  "created": "2026-10-03",
+  "rasterProvenance": [
+    {
+      "file": "logo/monolith-endorsed-mono.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-endorsed-mono.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 428,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-endorsed-primary.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-endorsed-primary.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 428,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-endorsed-reversed.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-endorsed-reversed.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 428,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-lockup-mono.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-lockup-mono.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 293,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-lockup-primary.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-lockup-primary.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 293,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-lockup-reversed.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-lockup-reversed.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1800,
+      "height": 293,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-symbol-mono.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-symbol-mono.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1040,
+      "height": 960,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-symbol-primary.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-symbol-primary.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1040,
+      "height": 960,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-symbol-reversed.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-symbol-reversed.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1040,
+      "height": 960,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-wordmark-mono.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-wordmark-mono.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1500,
+      "height": 281,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-wordmark-primary.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-wordmark-primary.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1500,
+      "height": 281,
+      "alpha": true
+    },
+    {
+      "file": "logo/monolith-wordmark-reversed.png",
+      "origin": "Rasterised from authored outlined vector logo/monolith-wordmark-reversed.svg; font outline provenance assets/fonts/SOURCES.json",
+      "width": 1500,
+      "height": 281,
+      "alpha": true
+    },
+    {
+      "file": "icons/monolith-app-16.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 16,
+      "height": 16,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-24.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 24,
+      "height": 24,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-32.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 32,
+      "height": 32,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-48.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 48,
+      "height": 48,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-64.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 64,
+      "height": 64,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-128.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "file": "icons/apple-touch-icon.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 180,
+      "height": 180,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-192.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 192,
+      "height": 192,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-256.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "file": "icons/monolith-app-512.png",
+      "origin": "Rasterised from authored icons/favicon.svg; opaque app icon on Index violet",
+      "width": 512,
+      "height": 512,
+      "alpha": false
+    }
+  ],
+  "concepts": [
+    {
+      "file": "concepts/identity-overview.png",
+      "prompt": "concepts/identity-overview.prompt.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "role": "Reviewed exploration reference; not production artwork or live screenshots"
+    },
+    {
+      "file": "concepts/logo-construction.png",
+      "prompt": "concepts/logo-construction.prompt.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "role": "Reviewed exploration reference; not production artwork or live screenshots"
+    },
+    {
+      "file": "concepts/product-applications.png",
+      "prompt": "concepts/product-applications.prompt.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "role": "Reviewed exploration reference; not production artwork or live screenshots"
+    }
+  ],
+  "fonts": "fonts/SOURCES.json",
+  "svg": "Authored geometry and licensed font outlines; scripts/build-vectors.py"
+}

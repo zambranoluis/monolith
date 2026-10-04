@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: logo-brand. A separate large readable landscape 16:10 logo construction study for Monolith THE WORK INDEX identity. Bright white, violet #6038E8, ink #191922. Design a reduced abstract mark using exactly three solid upright vertical indexed strokes, with staggered top steps and an aligned base, separated by two crisp equal-width gaps, compact silhouette evocative of gathered indexed pages and an architectural M. Broad rectangular simple strokes, no fine details, legible at 16 pixels. Show one large violet symbol on construction grid with sparse dimensional marks; one black symbol; reversed white on solid violet; sizes 16, 24, 48; large bold Archivo 'Monolith' wordmark and tiny 'By CrimsonTide'. Huge negative space, Swiss identity studio restraint. Sparse text only. Show one consistent symbol across all uses. No gradients no shadows no extra shapes. This is concept reference for subsequent clean SVG artwork.",
+  "tool": "image_gen.imagegen built-in",
+  "generatedAt": "2026-10-03",
+  "role": "Exploration reference, reviewed before production artwork and UI",
+  "approved": false,
+  "decision": "User-pinned Work Index direction; concept details refined into authored SVG and semantic HTML. Concept is not a product screenshot."
+}

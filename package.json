@@ -1,0 +1,19 @@
+{
+  "name": "monolith-brand-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Monolith Work Index identity and static brand showcase",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "assets": "node scripts/export-assets.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/verify-browser.mjs",
+    "test:zoom": "node scripts/verify-zoom.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "playwright": "1.58.2",
+    "sharp": "0.35.5"
+  }
+}
