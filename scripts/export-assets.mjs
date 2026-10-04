@@ -49,5 +49,5 @@ const logos=await filesIn(logoDir),icons=await filesIn(iconDir),fonts=await file
 await zip('monolith-logos.zip',logos);
 await zip('monolith-icons.zip',icons);
 await zip('monolith-fonts.zip',fonts);
-await zip('monolith-brand-kit.zip',[...logos,...icons,...fonts,...apps,'assets/PROVENANCE.json',`${outDir}/monolith-tokens.json`,`${outDir}/monolith-brand-guide.md`,'styles/tokens.css','DESIGN.md']);
+await zip('monolith-brand-kit.zip',[...logos,...icons,...fonts,...apps,'assets/PROVENANCE.json',`${outDir}/monolith-tokens.json`,`${outDir}/monolith-brand-guide.md`]);
 console.log(`Exported ${rasterProvenance.length} PNGs, ICO, manifest, tokens, guide, and four ZIP bundles.`);
