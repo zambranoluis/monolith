@@ -1,6 +1,0 @@
-node_modules/
-.venv/
-playwright/runs/
-.impeccable/review/*.png
-.impeccable/review/detector.json
-playwright/last-run.txt

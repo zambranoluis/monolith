@@ -1,8 +1,0 @@
-{
-  "prompt": "Use case: logo-brand. Create a premium brand identity overview for Monolith, a standalone CrimsonTide workspace for individual OpenJM users: pages and structured records make work understandable and useful as selected context. Personality clear, grounded, resourceful, composed. Direction is THE WORK INDEX. 3x3 identity studio board, landscape 16:10. Bright white main ground, dark ink #191922, vivid violet #6038E8, pale lilac #F0ECFD. Custom flat mark of three parallel upright rectangular indexed strokes with staggered tops and a shared horizontal visual baseline, an abstract compact architectural M/index. Repeat the same simple mark consistently. Archivo bold grotesk headings, Source Sans 3 humanist reading. Panels: large Monolith lockup with small By CrimsonTide; large isolated violet symbol; minimal fictional Harbor Library project browser view; sparse tagline 'Work, in context.'; four flat swatches; expressive type specimen; physical index folder and card; disciplined alignment graphic; tiny app icon. Editorial asymmetric rhythm within the board, crisp geometry and wide breathing room. No gradients, no glass, no sparkles, no sci fi imagery, no made-up claims, no unreadable paragraphs. Sparse readable type. This is a concept board, not shipping artwork.",
-  "tool": "image_gen.imagegen built-in",
-  "generatedAt": "2026-10-03",
-  "role": "Exploration reference, reviewed before production artwork and UI",
-  "approved": false,
-  "decision": "User-pinned Work Index direction; concept details refined into authored SVG and semantic HTML. Concept is not a product screenshot."
-}
